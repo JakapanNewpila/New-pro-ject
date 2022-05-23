@@ -3,15 +3,18 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(53, 129, 46);
-    background-image: url(https://images.pexels.com/photos/917494/pexels-photo-917494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    /* background-color: rgb(53, 129, 46); */
+    /* background-image: url(https://images.pexels.com/photos/917494/pexels-photo-917494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    /* background-repeat: no-repeat; */
+    background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
 }
 
 .main{
-    width: 1400px;
-    height: 700px;
+    width: 1300px;
+    height: 600px;
     box-shadow: 3px 3px 10px 5px rgb(29, 73, 55);
-    margin: 60px;
+    margin: 40px;
     margin-top: 20px;
     border-radius: 20px;
     box-shadow: 3px 3px 10px 5px rgb(48, 44, 42);
@@ -22,7 +25,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(179, 115, 41, 0.5);
+    background-color: rgba(104, 147, 182, 0.767);
     border-radius: 10   px;
 }
 ul{
@@ -81,7 +84,7 @@ a :hover{
 
 .grid-crad{
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: 280px 280px 280px 280px;
     grid-gap: 25px;
     /* border: 10px solid red; */
     width: 1300px;
@@ -89,8 +92,8 @@ a :hover{
     margin-left: 50px ;
 }
 .grid-crad .box1{
-    width: 300px;
-    height: 230px;
+    width: 280px;
+    height: 200px;
     background: red;
     overflow: hidden;
     box-shadow: 3px 3px 10px 5px rgb(48, 44, 42);
@@ -103,8 +106,8 @@ a :hover{
     margin: 10px;
 }
 .grid-crad .box2{
-    width: 100%;
-    height: 230px;
+    width: 280px;
+    height: 200px;
     background: rgb(156, 59, 59);
     box-shadow: 3px 3px 10px 5px rgb(48, 44, 42);
     border-radius: 20px;
@@ -112,8 +115,8 @@ a :hover{
     background-size: cover;
 }
 .grid-crad .box3{
-    width: 100%;
-    height: 230px;
+    width: 280px;
+    height: 200px;
     background: rgb(23, 15, 68);
     box-shadow: 3px 3px 10px 5px rgb(48, 44, 42);
     border-radius: 20px;
@@ -121,8 +124,8 @@ a :hover{
     background-size: cover;
 }
 .grid-crad .box4{
-    width: 100%;
-    height: 230px;
+    width: 280px;
+    height: 200px;
     background: rgb(21, 97, 33);
     box-shadow: 3px 3px 10px 5px rgb(48, 44, 42);
     border-radius: 20px;
@@ -131,6 +134,122 @@ a :hover{
 }
 
 .grid-crad :hover{
-    background-color: rgba(117, 63, 38, 0.671);
+    background-color: rgba(128, 170, 204, 0.671);
     border-radius: 20px;
 }
+
+
+
+
+/* .product-content{
+    width: 800px;
+    height: 800px;
+    border: 10px solid red;
+} */
+
+.product-content h2{
+    color: rgb(165, 185, 202);
+    display: flex;
+    justify-content: center;
+
+}
+.product-content p{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.grid-content{
+    /* height: 500px; */
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-gap: 100px;
+    /* margin-left: 50px; */
+    /* background-color: bisque; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    /* background-image: url(); */
+}
+.grid-content .box11{
+    width: 200px;
+    height: 230px;
+    /* background: rgb(156, 59, 59); */
+    box-shadow: 3px 3px 10px 5px rgb(112, 104, 100);
+    border-radius: 20px;
+    background-image: url(https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+}
+.grid-content .box22{
+    width: 200px;
+    height: 230px;
+    /* background: rgb(156, 59, 59); */
+    box-shadow: 3px 3px 10px 5px rgb(112, 104, 100);
+    border-radius: 20px;
+    background-image: url(https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+}
+.grid-content .box33{
+    width: 200px;
+    height: 230px;
+    /* background: rgb(156, 59, 59); */
+    box-shadow: 3px 3px 10px 5px rgb(112, 104, 100);
+    border-radius: 20px;
+    background-image: url(https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+}
+.grid-content .box44{
+    width: 200px;
+    height: 230px;
+    /* background: rgb(156, 59, 59); */
+    box-shadow: 3px 3px 10px 5px rgb(112, 104, 100);
+    border-radius: 20px;
+    background-image: url(https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+}
+.grid-content .box55{
+    width: 200px;
+    height: 230px;
+    /* background: rgb(156, 59, 59); */
+    box-shadow: 3px 3px 10px 5px rgb(112, 104, 100);
+    border-radius: 20px;
+    background-image: url(https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+}
+.grid-content .box66{
+    width: 200px;
+    height: 230px;
+    /* background: rgb(156, 59, 59); */
+    box-shadow: 3px 3px 10px 5px rgb(112, 104, 100);
+    border-radius: 20px;
+    background-image: url(https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+}
+
+
+
+
+
+.content-three {
+    margin-top: 20px;
+}
+.content-three H2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px ;
+}
+.content-three p{
+    height: 600px;
+}
+
+
+
+
+
+.footer{
+    width: auto;
+    height: 200px;
+    background-color: rgb(39, 104, 141);
+}
+
+
